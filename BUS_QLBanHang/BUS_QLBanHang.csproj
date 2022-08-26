@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{923C532E-2EDB-4FE9-AA54-CDAED1A305F3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BUS_QLBanHang</RootNamespace>
+    <AssemblyName>BUS_QLBanHang</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BUS_QL\BUS_BanHang.cs" />
+    <Compile Include="BUS_QL\BUS_CaLam.cs" />
+    <Compile Include="BUS_QL\BUS_CongViec.cs" />
+    <Compile Include="BUS_QL\BUS_CTHoaDonB.cs" />
+    <Compile Include="BUS_QL\BUS_DonDH.cs" />
+    <Compile Include="BUS_QL\BUS_DonDHNCC.cs" />
+    <Compile Include="BUS_QL\BUS_DonViTinh.cs" />
+    <Compile Include="BUS_QL\BUS_DSDonDH.cs" />
+    <Compile Include="BUS_QL\BUS_DSDonDHNCC.cs" />
+    <Compile Include="BUS_QL\BUS_DSHoaDonB.cs" />
+    <Compile Include="BUS_QL\BUS_DSHoaDonN.cs" />
+    <Compile Include="BUS_QL\BUS_FC_CaLam.cs" />
+    <Compile Include="BUS_QL\BUS_FC_CongViec.cs" />
+    <Compile Include="BUS_QL\BUS_FC_DonViTinh.cs" />
+    <Compile Include="BUS_QL\BUS_FC_HangHoa.cs" />
+    <Compile Include="BUS_QL\BUS_FC_KhachHang.cs" />
+    <Compile Include="BUS_QL\BUS_FC_NhaCC.cs" />
+    <Compile Include="BUS_QL\BUS_FC_NhanVien.cs" />
+    <Compile Include="BUS_QL\BUS_FC_NhomHang.cs" />
+    <Compile Include="BUS_QL\BUS_FC_NuocSX.cs" />
+    <Compile Include="BUS_QL\BUS_FC_Pass.cs" />
+    <Compile Include="BUS_QL\BUS_FC_TaiKhoan.cs" />
+    <Compile Include="BUS_QL\BUS_HangHoa.cs" />
+    <Compile Include="BUS_QL\BUS_KhachHang.cs" />
+    <Compile Include="BUS_QL\BUS_Login.cs" />
+    <Compile Include="BUS_QL\BUS_MainMeNu.cs" />
+    <Compile Include="BUS_QL\BUS_NhaCC.cs" />
+    <Compile Include="BUS_QL\BUS_NhanVien.cs" />
+    <Compile Include="BUS_QL\BUS_NhapHang.cs" />
+    <Compile Include="BUS_QL\BUS_NhomHang.cs" />
+    <Compile Include="BUS_QL\BUS_NuocSX.cs" />
+    <Compile Include="BUS_QL\Bus_TaiKhoan.cs" />
+    <Compile Include="BUS_QL\BUS_XemCTDonDH.cs" />
+    <Compile Include="BUS_QL\BUS_XemCTDonDHNCC.cs" />
+    <Compile Include="BUS_QL\BUS_XemCTDonDHN.cs" />
+    <Compile Include="BUS_QL\BUS_XemCTHoaDonN.cs" />
+    <Compile Include="Entity\C_CTDonDH.cs" />
+    <Compile Include="Entity\C_CTHoaDB.cs" />
+    <Compile Include="Entity\EC_User.cs" />
+    <Compile Include="Entity\C_AutoID.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL_QLBanHang\DAL_QLBanHang.csproj">
+      <Project>{093eeff8-73cd-4af6-a5aa-4e246b544cb6}</Project>
+      <Name>DAL_QLBanHang</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

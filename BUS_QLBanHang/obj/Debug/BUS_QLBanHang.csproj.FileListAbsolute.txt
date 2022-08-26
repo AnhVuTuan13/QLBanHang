@@ -1,0 +1,9 @@
+F:\LEARNING\KHAC\QLBanHang\QLBanHang\BUS_QLBanHang\bin\Debug\BUS_QLBanHang.dll
+F:\LEARNING\KHAC\QLBanHang\QLBanHang\BUS_QLBanHang\bin\Debug\BUS_QLBanHang.pdb
+F:\LEARNING\KHAC\QLBanHang\QLBanHang\BUS_QLBanHang\bin\Debug\DAL_QLBanHang.dll
+F:\LEARNING\KHAC\QLBanHang\QLBanHang\BUS_QLBanHang\bin\Debug\DAL_QLBanHang.pdb
+F:\LEARNING\KHAC\QLBanHang\QLBanHang\BUS_QLBanHang\obj\Debug\BUS_QLBanHang.csproj.AssemblyReference.cache
+F:\LEARNING\KHAC\QLBanHang\QLBanHang\BUS_QLBanHang\obj\Debug\BUS_QLBanHang.csproj.CoreCompileInputs.cache
+F:\LEARNING\KHAC\QLBanHang\QLBanHang\BUS_QLBanHang\obj\Debug\BUS_QLBanHang.dll
+F:\LEARNING\KHAC\QLBanHang\QLBanHang\BUS_QLBanHang\obj\Debug\BUS_QLBanHang.pdb
+F:\LEARNING\KHAC\QLBanHang\QLBanHang\BUS_QLBanHang\obj\Debug\BUS_QLBanHang.csproj.CopyComplete
